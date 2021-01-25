@@ -5,9 +5,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  color: #33475b;
+  font-weight: bold;
+}
+
 header {
   background-color: #f4f9fd;
-  color: #33475b;
   border-bottom: 1px solid #33475b;
 }
 
@@ -17,30 +21,27 @@ header:after {
   clear: both;
 }
 
-.nav-top {
+.bar-container {
   width: 80%;
   margin: auto;
   height: 70px;
   line-height: 70px;
 }
 
-.nav-left {
-  font-weight: bold;
+.bar-left {
   float: left;
 }
 
-.nav-left span {
+.bar-left span {
   margin: 0 25px;
-  border-left: 1px solid #33475b;
 }
 
-.nav-right {
+.bar-right {
   float: right;
-  padding-right: 50px;
 }
 
-.nav-right i, .nav-right span {
-  margin-right: 15px;
+.bar-right i, .bar-right span {
+  margin-right: 20px;
 }
 
 .fa-search {
@@ -62,4 +63,39 @@ header:after {
   background-color: #FFF;
   border: 1px solid #ff7a59;
   color: #ff7a59;
+}
+
+nav {
+  margin: auto;
+  padding: 20px 0;
+  width: 80%;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav img {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  word-spacing: 10px;
+}
+
+main {
+  background-image: linear-gradient(to top right, #f2f0fe, #fff3ee, #fff1ee);
+  height: 600px;
 }
