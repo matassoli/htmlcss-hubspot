@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body {
   color: #33475b;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 header {
@@ -15,17 +15,22 @@ header {
   border-bottom: 1px solid #33475b;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header:after {
+  clear: both;
   content: "";
   display: table;
-  clear: both;
 }
 
 .bar-container {
-  width: 80%;
-  margin: auto;
   height: 70px;
   line-height: 70px;
+  margin: auto;
+  width: 80%;
 }
 
 .bar-left {
@@ -33,6 +38,7 @@ header:after {
 }
 
 .bar-left span {
+  border-right: 2px solid #33475b;
   margin: 0 25px;
 }
 
@@ -40,7 +46,7 @@ header:after {
   float: right;
 }
 
-.bar-right i, .bar-right span {
+.bar-right i, .bar-right a {
   margin-right: 20px;
 }
 
@@ -53,31 +59,32 @@ header:after {
   border-radius: 5px;
   color: #FFF;
   display: inline-block;
+  font-size: 16px;
+  line-height: initial;
   padding: 10px 10px;
   text-align: center;
-  line-height: initial;
 }
 
 .button-border {
-  display: inline-block;
   background-color: #FFF;
   border: 1px solid #ff7a59;
   color: #ff7a59;
+  display: inline-block;
 }
 
 nav {
-  margin: auto;
-  padding: 20px 0;
-  width: 80%;
   height: 30px;
   line-height: 30px;
+  margin: auto;
   margin-bottom: 30px;
+  padding: 20px 0;
+  width: 80%;
 }
 
 nav::after {
+  clear: both;
   content: "";
   display: table;
-  clear: both;
 }
 
 nav img {
@@ -92,10 +99,62 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 30px;
-  word-spacing: 10px;
+  word-spacing: 8px;
 }
 
 main {
+  padding: 10px 0;
+}
+
+.hero {
   background-image: linear-gradient(to top right, #f2f0fe, #fff3ee, #fff1ee);
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+
+.hero-text {
+  left: 10%;
+  position: relative;
+  top: 6%;
+  width: 35%;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero-text .button {
+  margin: 35px 0;
+  padding: 20px;
+}
+
+.hero-text p:last-child {
+  font-size: 12px;
+}
+
+.hero-text-border {
+  background-color: #afebe4;
+  border-bottom: 4px solid #33475b;
+  border-top: 4px solid #33475b;
+  bottom: 0;
+  height: 12%;
+  position: absolute;
+  width: 100%;
+}
+
+.main-section {
+  background-color: #f4f9fd;
   height: 600px;
 }
