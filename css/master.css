@@ -156,5 +156,44 @@ h1 {
 
 .main-section {
   background-color: #f4f9fd;
-  height: 600px;
+  text-align: center;
+  align-items: center;
+}
+
+.cube {
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+
+.cube img {
+  margin-top: 30px;
+  height: 200px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.cube p {
+  line-height: 30px;
+  padding-bottom: 50px;
+}
+
+.section-table {
+  width: 80%;
+  background-color: #FFF;
+  height: 300px;
+  margin: auto;
+}
+
+
+
+.column-1, .column-2, .column-3 {
+  background-color: red;
+  height: 400px;
+  display: inline-block;
+  width: calc(80% / 3);
+  margin: auto;
 }
