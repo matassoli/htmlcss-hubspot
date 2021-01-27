@@ -297,21 +297,53 @@ h5 span {
 
 .table {
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
-  height: 500px;
-  text-align: center;
   color: #FFF;
+  font-size: 0;
   margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 h3 {
-
-  padding-top: 40px;
   font-size: 30px;
   margin-bottom: 30px;
+  padding-top: 40px;
+}
+
+.table p {
+  font-size: 16px;
 }
 
 .table-text {
-  width: 80%;
   margin: auto;
+  margin-bottom: 40px;
+  width: 80%;
+}
 
+.table-body {
+  border-bottom: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+  display: inline-block;
+  padding: 30px;
+  width: 15%;
+}
+
+.table-body:nth-child(5), .table-body:nth-child(10) {
+  border-right: none;
+}
+
+.table-body:nth-child(1n+6) {
+  border-bottom: none;
+}
+
+.table-body img {
+  margin-bottom: 15px;
+}
+
+.table-body h4 {
+  font-size: 30px;
+}
+
+.table-body span {
+  font-size: 14px;
 }
