@@ -408,7 +408,6 @@ h3 {
   margin-top: 30px;
 }
 
-
 .bot-section-b__img {
   display: inline-block;
   padding-right: 50px;
@@ -417,6 +416,90 @@ h3 {
 }
 
 .bot-section-b__img img {
-  height: 300px;
+  max-height: 300px;
   vertical-align: middle;
+}
+
+footer {
+  background-color: #32495b;
+  color: #dadee0;
+}
+
+.footer__container {
+  margin: auto;
+  padding-top: 30px;
+  width: 80%;
+}
+
+.footer-navbar {
+  display: inline-block;
+  width: 24%;
+}
+
+.footer-navbar h5 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.footer-navbar li {
+  font-size: 12px;
+  font-weight: 400;
+  list-style: none;
+  margin: 20px 0;
+  vertical-align: middle;
+}
+
+.footer-socials {
+  position: absolute;
+}
+
+.footer-socials .button {
+  background-color: #dadee0;
+  color: #32495b;
+  display: block;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.footer-socials a {
+  padding: 8px;
+}
+
+.footer-bar {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.footer-bar__languages {
+  border-bottom: 1px solid #dadee0;
+  font-size: 14px;
+  margin: auto;
+  padding-bottom: 20px;
+  width: 80%;
+  word-spacing: 20px;
+}
+
+.footer-bar__logo {
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 80%;
+}
+
+.footer-bar__logo span {
+  display: block;
+  font-size: 13px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.footer-bar__legal {
+  display: inline-block;
+  font-size: 16px;
+  text-align: right;
+  width: 89%;
+}
+
+.footer-bar__legal a {
+  margin-left: 25px;
 }
